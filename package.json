@@ -1,0 +1,29 @@
+{
+  "name": "yrdLmz",
+  "version": "1.0.1",
+  "description": "为宜人贷开发小活动的命令行工具包 该工具包的功能为测试,开发 部署 上线 为一体",
+  "main": "index.js",
+  "scripts": {
+    "test": "yrd test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lmz2423/yrdActivity.git"
+  },
+  "keywords": [
+    "yrd",
+    "command"
+  ],
+  "author": "alonehero",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lmz2423/yrdActivity/issues"
+  },
+  "bin": {
+    "yrdLmz": "./bin/yrd.js"
+  },
+  "homepage": "https://github.com/lmz2423/yrdActivity#readme",
+  "dependencies": {
+    "yargs": "^4.6.0"
+  }
+}
